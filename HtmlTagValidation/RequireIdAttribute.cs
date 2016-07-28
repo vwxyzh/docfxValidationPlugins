@@ -5,7 +5,7 @@ using Microsoft.DocAsCode.Plugins;
 
 namespace HtmlTagValidation
 {
-    [Export("require_id_attibute", typeof(ICustomMarkdownTagValidator))]
+    [Export("require_id_attribute", typeof(ICustomMarkdownTagValidator))]
     public class RequireIdAttribute : ICustomMarkdownTagValidator
     {
         public bool Validate(string tag)
