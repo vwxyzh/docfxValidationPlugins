@@ -10,7 +10,7 @@ namespace HtmlTagValidation
     {
         public bool Validate(string tag)
         {
-            return Regex.IsMatch(tag, "\\bid\\s+=\\s+\\\"");
+            return Regex.IsMatch(tag, "\\s+id\\s*=\\s*\\\"");
         }
     }
 }
