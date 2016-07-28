@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA291CE4-8B05-437E-8246-90917BF71DA0}</ProjectGuid>
+    <ProjectGuid>{F38FC89F-2EE6-4091-B971-09E5F128D7FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MarkdownValidation</RootNamespace>
-    <AssemblyName>MarkdownValidation</AssemblyName>
+    <RootNamespace>MetadataValidation</RootNamespace>
+    <AssemblyName>MetadataValidation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -122,7 +122,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HeadingLimitation.cs" />
+    <Compile Include="WeDoNotCareMood.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,7 +130,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)mdHeading\plugins /y</PostBuildEvent>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)metadata\plugins\ /y</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

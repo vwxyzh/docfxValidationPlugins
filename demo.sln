@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownValidation", "Markd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTagValidation", "HtmlTagValidation\HtmlTagValidation.csproj", "{B08B4F25-42C5-44EE-9CDA-EA2C58AC5D44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataValidation", "MetadataValidation\MetadataValidation.csproj", "{F38FC89F-2EE6-4091-B971-09E5F128D7FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B08B4F25-42C5-44EE-9CDA-EA2C58AC5D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B08B4F25-42C5-44EE-9CDA-EA2C58AC5D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B08B4F25-42C5-44EE-9CDA-EA2C58AC5D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38FC89F-2EE6-4091-B971-09E5F128D7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38FC89F-2EE6-4091-B971-09E5F128D7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38FC89F-2EE6-4091-B971-09E5F128D7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38FC89F-2EE6-4091-B971-09E5F128D7FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
