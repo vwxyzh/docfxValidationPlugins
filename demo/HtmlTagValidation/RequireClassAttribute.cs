@@ -5,12 +5,12 @@ using Microsoft.DocAsCode.Plugins;
 
 namespace HtmlTagValidation
 {
-    [Export("require_class_attibute", typeof(ICustomMarkdownTagValidator))]
+    [Export("require_id_attibute", typeof(ICustomMarkdownTagValidator))]
     public class RequireClassAttribute : ICustomMarkdownTagValidator
     {
         public bool Validate(string tag)
         {
-            return Regex.IsMatch(tag, "\\bclass\\s+=\\s+\\\"");
+            return Regex.IsMatch(tag, "\\bid\\s+=\\s+\\\"");
         }
     }
 }
