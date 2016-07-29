@@ -17,7 +17,7 @@ namespace MarkdownValidation
                     {
                         if (token.Depth > 4)
                         {
-                            Logger.LogWarning("Invalid heading", line: token.SourceInfo.LineNumber.ToString());
+                            Logger.LogError("Invalid heading", line: token.SourceInfo.LineNumber.ToString());
                         }
                     }));
         }
